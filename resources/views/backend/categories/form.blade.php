@@ -6,7 +6,10 @@
 @section('content')
     <div class="content-detached">
         <div class="content-body">
-            <div class="card">
+            <div class="card card-primary">
+                <div class="card-header" style="padding-top: 30px;">
+
+                </div>
 
 
                 <div class="card-body">
