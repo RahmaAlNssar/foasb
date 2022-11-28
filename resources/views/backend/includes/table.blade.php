@@ -19,8 +19,12 @@
     </div>
 
     @endif
-    <div class="card-content collpase show">
+    <div class="card-content collpase show  card-primary">
+        <div class="card-header" style="padding-top: 30px;">
+            {{-- <h3 class="card-title" style="float: right"></h3> --}}
+        </div>
         <div class="card-body table-responsive data_table">
+
 
             {{ $dataTable->table() }}
 
